@@ -24,10 +24,6 @@ module Delayed
 
         before_save :set_default_run_at
 
-        def self.last_error=
-          # TODO to fix: do nothing
-        end
-
         def self.db_time_now
           Time.now.utc
         end
