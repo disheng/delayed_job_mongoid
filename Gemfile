@@ -1,6 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rake'
+gem 'delayed_job', :git => "git://github.com/disheng/delayed_job.git"
+
 
 group :test do
   gem 'coveralls', :require => false
