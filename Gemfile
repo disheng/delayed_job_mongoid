@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'rake'
-gem 'delayed_job', :git => "git://github.com/disheng/delayed_job.git"
+gem 'delayed_job'
 
 
 group :test do
